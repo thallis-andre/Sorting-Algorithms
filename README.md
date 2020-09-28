@@ -1,6 +1,6 @@
 # Algoritmos de ordenação
 
-Aplicação feita em python e react para ler arquivos csv e ordenar de acordo com os principaiis métodos.
+Aplicação feita em python e react para ler arquivos csv e ordenar de acordo com os principais métodos.
 
 ## Index
 + [Instalação](#installation)
