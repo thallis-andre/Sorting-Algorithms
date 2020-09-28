@@ -27,6 +27,7 @@ def partition(alist, first, last):
     pivotvalue = alist[first]
     leftmark = first+1
     rightmark = last
+    validacao = 0
     global comparacoes
 
     done = False
@@ -122,9 +123,9 @@ def selectionSort(lista):
     global trocas
     trocas = 0
     for i in range(0, len(lista)): 
-        for j in range(i+1, len(lista)): 
+        for j in range(i+1, len(lista)):
             comparacoes = comparacoes + 1
-            if lista[i][0] > lista[j][0]: 
+            if lista[i][0] > lista[j][0]:
                 aux = lista[i]
                 lista[i] = lista[j]
                 lista[j] = aux
@@ -143,14 +144,14 @@ def insertionSort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
         j = i-1
-        if key[0] > arr[j][0]:
-            comparacoes += 1
+
         while j >=0 and key[0] < arr[j][0]:
                 comparacoes += 1
                 arr[j+1] = arr[j] 
                 trocas += 1
                 j -= 1
-        arr[j+1] = key 
+        arr[j+1] = key
+        comparacoes = comparacoes + 1
 
     return {"trocas": trocas, "comparacoes": comparacoes}
     
