@@ -104,6 +104,6 @@ ordenada está vazia e a desordenada contém todos os elementos, no final do pro
 ordenada apresentará (n-1) elementos e a desordenada terá um elemento.
 
 <div style="text-align:center">
-  <img src="./public/Selection-sort.gif"/>
+  <img src="./public/Selection-Sort.gif"/>
 </div>
 
