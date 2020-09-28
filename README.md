@@ -7,7 +7,7 @@ Aplicação feita em python e react para ler arquivos csv e ordenar de acordo co
 + [Algoritmos de ordenação](#algorithms)
 
 
-## Instlação<a name="installation"></a>
+## Instalação<a name="installation"></a>
 ### Front-end
 Verifique se você tem [Node.js](https://nodejs.org/) e [npm](https://www.npmjs.com/) já instalados.
 
